@@ -17,5 +17,5 @@ while (remainder >= number2) {
     quotient++
     remainder = remainder - number2
 }
-print number1 + "/" + number2 + " = " + (negativeQuotient ? 0 - quotient : quotient)
+print number1 + " divided by " + number2 + " is " + (negativeQuotient ? 0 - quotient : quotient)
 println ", remainder " + (negative1 ? 0 - remainder : remainder)
