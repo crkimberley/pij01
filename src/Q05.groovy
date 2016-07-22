@@ -7,7 +7,8 @@ int number1 = input.nextInt()
 print "Enter 2nd number: "
 int number2 = input.nextInt()
 int result = 0
-for (i=1;i<=number2;i++) {
+while (number2 > 0) {
     result = result + number1
+    number2--
 }
 println "result = " + result
