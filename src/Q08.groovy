@@ -3,13 +3,11 @@
  */
 Scanner input = new Scanner(System.in)
 println "Program to find highest number from sequence of positive numbers"
+int number = 0
 int highestNumber = -1
-while (true) {
+while (number != -1) {
     print "Enter number: "
-    int number = input.nextInt()
-    if (number == -1) {
-        break
-    }
+    number = input.nextInt()
     if (number > highestNumber) {
         highestNumber = number
     }
