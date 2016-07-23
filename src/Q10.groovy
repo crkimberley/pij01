@@ -1,3 +1,5 @@
+import static java.lang.Math.abs
+
 /**
  * Created by crk on 23/07/2016.
  */
@@ -13,8 +15,9 @@ String consecutive = "Yes"
 while (previous >= 0) {
     print "Enter number (-1 to end): "
     current = input.nextInt()
-    if (current - previous != 1 && current > -1) {
+    if (abs(current - previous) != 1 && current > -1) {
         consecutive = "No"
+        println consecutive
     }
     previous = current
 }
