@@ -1,7 +1,7 @@
 /**
  * Created by crk on 23/07/2016.
  */
-
+// Slightly more straightforward when done in Java with a do...while loop
 Scanner input = new Scanner(System.in)
 println "Program to identify an increasing consecutive sequence of positive numbers"
 print "Enter number (-1 to end): "
